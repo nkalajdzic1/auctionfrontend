@@ -1,0 +1,16 @@
+.feature_products {
+  margin: 5%;
+  width: 90%;
+}
+
+.feature_products_title {
+  font-size: 1.8em;
+  list-style: none;
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 670px) {
+  .feature_products_title {
+    text-align: center;
+  }
+}

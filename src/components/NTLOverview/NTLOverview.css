@@ -1,0 +1,59 @@
+.ntlOverview {
+  margin-top: 5%;
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1200px) {
+  .ntlOverviewTabs {
+    width: 50%;
+    margin-left: 5%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .ntlOverviewTabs {
+    width: 33%;
+    margin-left: 5%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .ntlOverviewTabs {
+    width: 90%;
+    margin-left: 5%;
+  }
+}
+
+.ntlOverviewCards {
+  margin-left: 5%;
+  width: fit-content;
+}
+
+.cardContent {
+  display: inline-grid;
+  grid-template-columns: repeat(4, auto);
+  height: 60px;
+}
+
+.cardContent > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cardContent > ul > li {
+  float: left;
+}
+.cardContent > ul > li:nth-child(4n + 1) {
+  clear: both;
+}
+
+.singleCard {
+  padding-top: 2rem;
+  padding-left: 2.5rem;
+}
+
+#simple-tabpanel-0,
+#simple-tabpanel-1,
+#simple-tabpanel-2 {
+  width: fit-content;
+}
